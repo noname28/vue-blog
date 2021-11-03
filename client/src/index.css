@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .input_text {
+    @apply px-1 py-1 rounded-sm border-2 w-6/12;
+  }
+  .lbl {
+    @apply flex w-6/12;
+  }
+  .btn {
+    @apply text-base font-medium rounded-lg p-3;
+  }
+  .btn-primary {
+    @apply bg-red-300 text-white rounded-sm px-4 cursor-pointer m-1;
+  }
+  .btn-secondary {
+    @apply bg-green-300 text-black rounded-sm px-4 cursor-pointer m-1;
+  }
+  .btn-primary:hover {
+    @apply font-bold;
+  }
+  .btn-secondary:hover {
+    @apply font-bold;
+  }
+  .btn-back {
+    @apply bg-blue-500 text-white rounded-sm px-4 cursor-pointer m-1;
+  }
+  .btn-back:hover {
+    @apply font-bold;
+  }
+  .btn-delete {
+    @apply bg-yellow-700 text-white rounded-sm px-4 cursor-pointer m-1;
+  }
+  .btn-delete:hover {
+    @apply font-bold;
+  }
+}
